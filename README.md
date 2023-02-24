@@ -45,7 +45,7 @@ you can of course build your own. (The `example/eventsource-polyfill.js` is buil
 
 ### Extensions to event behaviour
 
-Emits new `retrying` event when the library is attempting to reconnect to the Harness.
+Emits new `retrying` event when the library is attempting to reconnect.
 
 ### Extensions to retry behaviour
 Instead of retrying every second, forever, this implementation uses exponential backoff and retry strategies.
