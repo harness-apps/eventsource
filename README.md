@@ -96,8 +96,6 @@ You can define a `proxy` option for the HTTP request to be used. This is typical
 var es = new EventSource(url, {proxy: 'http://your.proxy.com'});
 ```
 
-# Extensions to retry behaviour
-
 ## License
 
 MIT-licensed. See LICENSE
